@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<title>Оплата услуг</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link rel="icon" href="images/favicon.ico">
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="feedback/js/feedback.js"></script>
+    <script src="feedback/js/jquery.arcticmodal.js"></script>
+    <script src="feedback/js/jquery.jgrowl.js"></script>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$(document).on('click', '.modal_btn', function(){
+			$('#small-modal').arcticmodal();
+		});
+	});
+    </script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="feedback/css/jquery.arcticmodal.css">
+    <link rel="stylesheet" type="text/css" href="feedback/css/jquery.jgrowl.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css?20111115124136">
+</head>
+<body>
+<section class="page page--sticky-footer">
+  <div class="page__inner">
+     <header class="x-header-nav x-header-nav--ad">
+      <xc-header client-id="xfinity-learn-shop" width="1280">
+        <div class="xc-header--container" style="max-width: 1280px;"><a class="xc-header--simple-back">&lt; Back </a><a class="xc-header--xfinity-logo" href="/"><img class="xc-header--xfinity-logo-img" src="images/logo.png" alt="" width="140" height="24" ></a>
+          <div class="xc-header--mobile-icons-container xc-visible">
+            <ul class="xc-header--mobile-icons-ul">
+                   <li class="xc-header--mobile-icons-li" data-customer-existing=""><a class="xc-header--personal-link"  title="Телефон" href="tel:+79857000963">
+                <svg focusable="false" viewBox="0 0 100 100">
+                  <path d="M43,58c10.7,10.7,19,14,19,14s4.5-4.5,6-6c0.8-0.8,1.3-1.4,2-2c1.1-0.9,2.5-1.5,4-1c3.4,1.2,10.3,3.7,13,6c2.5,2.1,4.7,6.7-2,13
+	c-6.7,6.7-13.2,7-15,7c-6.5,0-16.2-3.2-36-23S12,35.5,12,31c0-1.6,0.3-8.3,7-15s10.1-4.4,12-2c2.3,2.9,5.1,9.8,7,13
+	c0.7,1.2,1.3,2.7,0,4c-0.6,0.6-1.2,1.2-2,2c-1.7,1.6-7,6-7,6S32.7,47.3,43,58z"></path>
+                </svg>
+                <span class="xc-header--personal-info xc-header-phone">8(985)700-09-63</span></a></li>
+              <li class="xc-header--mobile-icons-li"> <a class="xc-header--personal-link" title="Email" href="mailto:telekommig@gmail.com">
+                <svg focusable="false" viewBox="0 0 100 100">
+                  <path d="M9,18c-3.8,0-7,3.2-7,7l0,49c0,3.8,3.2,6,7,6h82
+			c3.7,0,7-2.3,7-6V25c0-3.9-3.2-7-7-7H9z"></path>
+                  <path d="M2.3,23l48,33.2L98,23"></path>
+                </svg>
+                <span class="xc-header--personal-info">Email</span>
+                <div class="xc-header--email-count" hidden=""></div>
+                </a> </li>
+            </ul>
+          </div>
+          <button class="xc-header--hamburger" type="button" aria-expanded="false"><span class="xc-screen-reader-text">Open Menu</span>
+          <svg focusable="false" viewBox="0 0 100 100">
+            <line x1="10" y1="25" x2="90" y2="25"></line>
+            <line x1="10" y1="50" x2="90" y2="50"></line>
+            <line x1="10" y1="75" x2="90" y2="75"></line>
+          </svg>
+          <svg focusable="false" viewBox="0 0 100 100">
+            <line x1="20" y1="20" x2="80" y2="80"></line>
+            <line x1="20" y1="80" x2="80" y2="20"></line>
+          </svg>
+          </button>
+          <div class="xc-header--container-nav">
+            <ul class="xc-header--navigation-ul" >
+             
+           
+              <li class="xc-header--navigation-li"> <a class="xc-header--navigation-link "  href=https://lk.mig-telecom.com><span>Личный кабинет</span></a> </li>
+              <li class="xc-header--navigation-li"> <a class="xc-header--navigation-link "  href="/contact.html"> Контакты </a> </li>
+            </ul>
+            <ul class="xc-header--personal-ul">
+              <li class="xc-header--personal-li" data-customer-existing=""><a class="xc-header--personal-link"  title="Телефон" href="tel:+79857000963">
+                <svg focusable="false" viewBox="0 0 100 100">
+                  <path d="M43,58c10.7,10.7,19,14,19,14s4.5-4.5,6-6c0.8-0.8,1.3-1.4,2-2c1.1-0.9,2.5-1.5,4-1c3.4,1.2,10.3,3.7,13,6c2.5,2.1,4.7,6.7-2,13
+	c-6.7,6.7-13.2,7-15,7c-6.5,0-16.2-3.2-36-23S12,35.5,12,31c0-1.6,0.3-8.3,7-15s10.1-4.4,12-2c2.3,2.9,5.1,9.8,7,13
+	c0.7,1.2,1.3,2.7,0,4c-0.6,0.6-1.2,1.2-2,2c-1.7,1.6-7,6-7,6S32.7,47.3,43,58z"></path>
+                </svg>
+                <span class="xc-header--personal-info xc-header-phone">8(985)700-09-63</span></a></li>
+				<li class="xc-header--personal-li" data-customer-existing=""><a class="xc-header--personal-link"  title="Телефон" href="tel:+79265797990">
+                <svg focusable="false" viewBox="0 0 100 100">
+                  <path d="M43,58c10.7,10.7,19,14,19,14s4.5-4.5,6-6c0.8-0.8,1.3-1.4,2-2c1.1-0.9,2.5-1.5,4-1c3.4,1.2,10.3,3.7,13,6c2.5,2.1,4.7,6.7-2,13
+	c-6.7,6.7-13.2,7-15,7c-6.5,0-16.2-3.2-36-23S12,35.5,12,31c0-1.6,0.3-8.3,7-15s10.1-4.4,12-2c2.3,2.9,5.1,9.8,7,13
+	c0.7,1.2,1.3,2.7,0,4c-0.6,0.6-1.2,1.2-2,2c-1.7,1.6-7,6-7,6S32.7,47.3,43,58z"></path>
+                </svg>
+                <span class="xc-header--personal-info xc-header-phone">8(926)-579-79-90</span></a></li>
+              <li class="xc-header--personal-li"><a class="xc-header--personal-link" title="Написать в техподдержку" href="mailto:telekommig@gmail.com">
+                <svg focusable="false" viewBox="0 0 100 100">
+                  <path d="M9,18c-3.8,0-7,3.2-7,7l0,49c0,3.8,3.2,6,7,6h82
+			c3.7,0,7-2.3,7-6V25c0-3.9-3.2-7-7-7H9z"></path>
+                  <path d="M2.3,23l48,33.2L98,23"></path>
+                </svg>
+                <span class="xc-header--personal-info">Email</span>
+                <div class="xc-header--email-count" hidden=""></div>
+                </a></li>
+            </ul>
+          </div>
+        </div>
+      </xc-header>
+      <div class="xc-polaris-secondary xc-polarisSub">
+        <div class="xc-polaris-secondary--content">
+          <nav class="xc-polarisSub-content xc-polarisSub-content--universe"> <a href="/" class="xc-polaris-link xc-polaris2"> <img class="xc-polaris-logo xc-polaris2" width="140" height="24" src="images/logo.png" alt=""> </a>
+            <ul class="xc-polaris-navigation">
+			<li class="xc-polaris-item "> <a class="xc-polaris-link xc-polaris-dropdown-btn xc-polaris2" href="/tarify.html"  > Тарифы </a> </li>
+			<li class="xc-polaris-item "> <a class="xc-polaris-link xc-polaris-dropdown-btn xc-polaris2" href="/video.html"  > Видеонаблюдение </a> </li>
+			<li class="xc-polaris-item "> <a class="xc-polaris-link xc-polaris-dropdown-btn xc-polaris2" href="/movie.html"  > Телевидение </a> </li>
+              <li class="xc-polaris-item xc-polaris-subDrop"> <a class="xc-polaris-link xc-polaris-dropdown-btn xc-polaris2" href="/karta-ram.html" > Карта покрытия </a>
+                <div class="xc-polaris-dropdown xc-polaris-dropdown-profile xc-polaris2 xc-polaris2-dropdown xc-polaris-dropdown--hidden">
+                  <ul class="xc-polaris2">
+				       <li class="xc-polaris-item xc-polaris2"> <a href="/karta-ram.html" class="xc-polaris-link xc-polaris2 " >Раменский район</a> </li>
+                    <li class="xc-polaris-item xc-polaris2"> <a href="/karta-dom.html" class="xc-polaris-link xc-polaris2 " >Домодедовский район</a> </li>
+                    <li class="xc-polaris-item xc-polaris2"> <a href="/karta-dmitr.html" class="xc-polaris-link xc-polaris2 " >Дмитровский район</a> </li>
+                  </ul>
+                </div>
+              </li>
+               
+              </li>
+              
+            </ul>
+          </nav>
+		 <span class="xc-polaris-navigation xc-polaris-item btn btn-large modal_btn"><a class="xc-polaris-link xc-polaris-dropdown-btn xc-polaris2"><img src="ostavit-zayavku-1.png"/></a></span> 
+		  
+        </div>
+      </div>
+      <nav class="nav_mobil">
+        <ul class="xc-header--sub-nav-ul">
+          <li class="xc-header--sub-nav-title">Меню</li>
+          
+         
+          <li class="xc-header--sub-nav-li"> <a  class="xc-header--sub-nav-link " href=https://lk.mig-telecom.com><span>Личный кабинет</span></a> </li>
+          <li class="xc-header--sub-nav-li"> <a class="xc-header--sub-nav-link " href="/contact.html"><span>Контакты</span></a> </li>
+          <li class="xc-header--sub-nav-li"> <a class="xc-header--navigation-link" href="/tarify.html"> Тарифы </a>
+              <li class="xc-header--sub-nav-li"> <a class="xc-header--navigation-link" href="/video.html"> Видеонаблюдение </a>
+					           <li class="xc-header--sub-nav-li"> <a class="xc-header--navigation-link" href="/movie.html"> Телевидение </a>
+							             <li class="xc-header--sub-nav-li"> <a class="xc-header--navigation-link" href="/karta-ram.html"> Карта покрытия </a>
+          </li>
+         
+        </ul>
+      </nav>
+    </header>
+    <!--header-->
+    <!--header-->
+    <main role="main">
+      <section class="section_table_white">
+        <div class="x-ui-theme--light">
+          <div class="x-content info ">
+            <div class="x-flex-row center-xs">
+              <div class="info__summary x-flex__col-xs-11 x-flex__col-md-12">
+                <div class="x-display-group3">
+                  <div class="div_text">
+                    <h3 class="x-display3">Правила оплаты</h3>
+                    <p>К оплате принимаются платежные карты: VISA Inc, MasterCard WorldWide.</p>
+                    <p>Для оплаты товара банковской картой при оформлении заказа в интернет-магазине выберите способ оплаты: банковской картой.</p>
+                    <p>При оплате заказа банковской картой, обработка платежа происходит на авторизационной странице банка, где Вам необходимо ввести данные Вашей банковской карты:</p>
+                    <ol>
+                      <li>тип карты.</li>
+                      <li>номер карты.</li>
+                      <li>срок действия карты (указан на лицевой стороне карты).</li>
+                      <li>Имя держателя карты (латинскими буквами, точно также как указано на карте).</li>
+                      <li>CVC2/CVV2 код.</li>
+                    </ol>
+                    <p><img  src="images/01.jpg" alt=""></p>
+                    <p>Если Ваша карта подключена к услуге 3D-Secure, Вы будете автоматически переадресованы на страницу банка, выпустившего карту, для прохождения процедуры аутентификации. Информацию о правилах и методах дополнительной идентификации уточняйте в Банке, выдавшем Вам банковскую карту.</p>
+                    <p>Безопасность обработки интернет-платежей через платежный шлюз банка гарантирована международным сертификатом безопасности PCI DSS. Передача информации происходит с применением технологии шифрования SSL. &nbsp;Эта информация недоступна посторонним лицам.</p>
+                    <p><strong>Советы и рекомендации по необходимым мерам безопасности проведения платежей с использованием банковской карты:</strong></p>
+                    <ol>
+                      <li><strong>берегите свои пластиковые карты</strong> так же, как бережете наличные деньги. Не забывайте их в машине, ресторане, магазине и т.д.</li>
+                      <li>никогда <strong>не передавайте полный номер своей кредитной карты</strong> по телефону каким-либо лицам или компаниям</li>
+                      <li>всегда имейте под рукой номер телефона для экстренной связи с банком, выпустившим вашу карту, и в случае ее утраты немедленно свяжитесь с банком</li>
+                      <li>вводите реквизиты карты&nbsp; только при совершении покупки. Никогда не указывайте их по каким-то другим причинам.</li>
+                    </ol>
+                    <p><img  src="images/02.jpg" alt="" ></p>
+                   <h3 class="x-display3">Возврат товара</h3>
+                    <p>Процедура возврата товара регламентируется статьей 26.1 федерального закона «О&nbsp;защите прав потребителей».</p>
+                    <ul>
+                      <li>&nbsp;Потребитель вправе отказаться от товара в любое время до его передачи, а после передачи товара - в течение семи дней;</li>
+                      <li>&nbsp;Возврат товара надлежащего качества возможен в случае, если сохранены его товарный вид, потребительские свойства, а также документ, подтверждающий факт и условия покупки указанного товара;</li>
+                      <li>&nbsp;Потребитель не вправе отказаться от товара надлежащего качества, имеющего индивидуально-определенные свойства, если указанный товар может быть использован исключительно приобретающим его человеком;</li>
+                      <li>При отказе потребителя от товара продавец должен возвратить ему денежную сумму, уплаченную потребителем по договору, за исключением расходов продавца на доставку от потребителя возвращенного товара, не позднее чем через десять дней со дня предъявления потребителем соответствующего требования;</li>
+                    </ul>
+                    <h3 class="x-display3">Отказ от услуги</h3>
+                    <p>Право потребителя на расторжение договора об оказании услуги регламентируется статьей 32 федерального закона «О защите прав потребителей».</p>
+                    <ul>
+                      <li>&nbsp;Потребитель вправе расторгнуть договор об оказании услуги в любое время, уплатив исполнителю часть цены пропорционально части оказанной услуги до получения извещения о расторжении указанного договора и возместив исполнителю расходы, произведенные им до этого момента в целях исполнения договора, если они не входят в указанную часть цены услуги;</li>
+                      <li>&nbsp;Потребитель при обнаружении недостатков оказанной услуги вправе по своему выбору потребовать:
+                        <ul>
+                          <li>безвозмездного устранения недостатков;</li>
+                          <li>соответствующего уменьшения цены;</li>
+                          <li>возмещения понесенных им расходов по устранению недостатков своими силами или третьими лицами;</li>
+                        </ul>
+                      </li>
+                      <li>&nbsp;Потребитель вправе предъявлять требования, связанные с недостатками оказанной услуги, если они обнаружены в течение гарантийного срока, а при его отсутствии в разумный срок, в пределах двух лет со дня принятия оказанной услуги;</li>
+                      <li>&nbsp;Исполнитель отвечает за недостатки услуги, на которую не установлен гарантийный срок, если потребитель докажет, что они возникли до ее принятия им или по причинам, возникшим до этого момента;</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  <div class="tips x-ui-theme--light">
+          <div class="tips__content">
+            <div class="tips__header x-flex">
+              <div class="x-flex__col-xs-12">
+                <div class="x-display-group3">
+                  <p class="x-display3">Остались вопросы ? </p>
+                </div>
+              </div>
+            </div>
+            <div class="tips__tile-container x-flex">
+              <div class="tip x-flex">
+                <div class="x-flex__col-xs-3">
+                  <div class="tip__image">
+                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/learn/public/images/sprites/df-icons.svg#df-customer-support">
+                      <svg viewBox="0 0 78 78" id="df-customer-support" fill="none" stroke="#aa2dc1">
+                        <path d="M51.01 32.505c0 6.627-5.374 12-12 12-6.628 0-12-5.373-12-12s5.372-12 12-12c6.626 0 12 5.373 12 12z"></path>
+                        <path d="M77 39c0 20.986-17.013 38-38 38C18.015 77 1 59.985 1 39 1 18.013 18.014 1 39 1c20.988 0 38 17.012 38 38z"></path>
+                        <path d="M14.844 68.01C18.168 57.844 27.726 50.503 39 50.503c11.163 0 20.646 7.2 24.057 17.208"></path>
+                        <path d="M57.01 32.505c0-9.942-8.06-18-18-18-9.943 0-18 8.058-18 18l-.007 2.99c0 1.66 1.344 3.004 3 3.004H37.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                      </svg>
+                    </use>
+                  </div>
+                </div>
+                <div class="x-flex__col-xs-9">
+                  <div class="x-body-group1">
+                    <p class="x-body1">Позвоните ! </p>
+                    <a href="tel:+79265797990" class="x-button--anchor" title="8-926-579-7990" >8-926-579-7990</a> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+     <footer>
+      <xc-footer  width="1280"  legal-corporate>
+        <div class="xc-footer--panels"  style="max-width: 1280px;">
+          <div class="xc-footer--panel" data-span-half="">
+            <h3 class="xc-footer--heading">Наша информация</h3>
+            <ul class="xc-footer--list" data-columns="2">
+ 
+              <li class="xc-footer--li"><a class="xc-footer--link" href="/tarify.html">Тарифы</a></li>
+              <li class="xc-footer--li"><a class="xc-footer--link" href="/contact.html">Связь с нами</a></li>
+              <li class="xc-footer--li"><a class="xc-footer--link" href="/payment.html">Оплата</a></li>
+             
+            </ul>
+          </div>
+          <div class="xc-footer--panel" data-span-half="">
+            <h3 class="xc-footer--heading">Услуги</h3>
+            <ul class="xc-footer--list" data-columns="2">
+               <li class="xc-footer--li"><a class="xc-footer--link" href="/movie.html">Телевидение</a></li>
+              <li class="xc-footer--li"><a  class="xc-footer--link" href="/video.html">Видеонаблюдение</a></li>
+              <li class="xc-footer--li"><a  class="xc-footer--link" href="/karta-ram.html">Карта покрытия</a></li>
+              
+            </ul>
+          </div>
+        </div>
+        <div class="xc-footer--bottom">
+          <div class="xc-footer--bottom-container" style="max-width: 1280px;"><a class="xc-footer--xfinity-logo" href="/"><img class="xc-footer--xfinity-logo-img" src="images/logo.png" alt=""></a>
+            
+            <ul class="xc-footer--social">
+              <li class="xc-footer--social-li"><img  src="images/02.jpg" alt="" ></li>
+            </ul>
+          </div>
+        </div>
+     <h4 class="xc-footer--copyright" ><a class="xc-footer--copyright-link" href="/">2020&nbsp;mig-telecom.com</a></h4>
+      </xc-footer>
+    </footer>
+  </div>
+</section>
+<div style="display:none;">
+<!-- Формы в модальных окнах -->
+    <div class="box-modal" id="small-modal">
+        <div class="modal-close arcticmodal-close">x</div>
+        <div class="modal-content-box">
+            <legend style="text-align:center;color:white">Оставить заявку на подключение</legend>
+            <form action="" method="get" name="form-1">
+                <div class="input-prepend">
+                    <span class="add-on"><i class="icon-user"></i></span>
+                    <input class="input-medium focused" name="name" type="text" placeholder="Имя">
+                </div>
+                <div class="input-prepend">
+                    <span class="add-on"><i class="icon-book"></i></span>
+                    <input class="input-medium focused" name="tell" type="text" placeholder="Контактный телефон">
+                </div>
+                <div class="input-prepend">
+                    <span class="add-on"><i class="icon-road"></i></span>
+                    <input class="input-medium focused" name="adres" type="text" placeholder="Адрес подключения">
+                </div>
+                <div class="input-prepend">
+                    <span class="add-on"><i class="icon-check"></i></span>
+                    <input class="input-medium focused" name="prov" type="text" placeholder="25 + 75 = ? ( цифрами )">
+                </div>				
+                <input class="feedback btn btn-block btn-success" name="send" type="button" value="Отправить">
+            </form>
+        </div>
+    </div>
+<!-- // Формы в модальных окнах -->
+</div>	
+<script src="js/nav.js"></script>
+<script src="js/js.js"></script>
+</body>
+</html>
