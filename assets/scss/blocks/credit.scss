@@ -1,0 +1,59 @@
+.credit {
+    margin: 6rem 0;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    margin-top: 10rem;
+}
+.credit__body {
+    max-width: 70rem;
+    margin: auto;
+    box-shadow: 3px 3px 20px -10px #000;
+    border-radius: 3rem;
+    padding: 2rem;
+}
+.credit__title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.credit__form {
+    max-width: 60rem;
+    margin: auto;
+}
+.credit__form-item {
+    margin-bottom: 2rem;
+    position: relative;
+    input {
+        width: 100%;
+        background-color: rgb(232, 232, 232);
+        border-radius: 2rem;
+        min-height: 4rem;
+        outline: 0;
+        padding: 0 2rem;
+        color: rgb(137, 137, 137);
+    }
+
+    select {
+        width: 100%;
+        min-height: 4rem;
+        border-radius: 2rem;
+        border: 0;
+        background-color: rgb(232, 232, 232);
+        outline: 0;
+        padding: 0 2rem;
+        color: rgb(137, 137, 137);
+    }
+
+    &:last-child {
+        input {
+            opacity: 0.7;
+        }
+    }
+}
+.credit__btn {
+    text-align: center;
+}
