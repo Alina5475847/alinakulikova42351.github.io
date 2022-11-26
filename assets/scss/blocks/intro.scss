@@ -1,0 +1,72 @@
+.intro {
+    width: 100%;
+    height: 100vh;
+    background: url("/assets/img/bg.png") center no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.intro__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.intro__content {
+    width: 45%;
+}
+.intro__suptitle {
+    font-size: 1.4rem;
+    color: rgb(124, 124, 124);
+}
+.intro__title {
+    font-size: 6rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.intro__photo {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+
+    img {
+        width: 100%;
+    }
+}
+.intro__kind {
+    margin-bottom: 2rem;
+}
+.intro__kind-title {
+    font-size: 1.6rem;
+    color: #fff;
+    margin-bottom: 2rem;
+}
+.intro__kind-list {
+    li {
+        font-size: 1.4rem;
+        color: #fff;
+        position: relative;
+
+        margin-bottom: 1rem;
+
+        text-transform: capitalize;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &:before {
+            content: "";
+            display: inline-block;
+            width: .5rem;
+            height: .5rem;
+            background-color: rgb(38, 154, 15);
+            border-radius: 50%;
+            margin-right: 1rem;
+        }
+    }
+}
