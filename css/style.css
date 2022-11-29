@@ -1,0 +1,454 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {font-size: 62.5%;}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.header {
+}
+.header__body {
+    padding: 0 1.5rem;
+}
+.header__top-body {
+    max-width: 1132px;
+    margin: auto;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__top {
+    background-color: rgb(245, 244, 244);
+    padding: 1rem 9;
+}
+.header__top-city {
+    display: flex;
+    align-items: center;
+}
+.header__top-city-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 8px;
+}
+.header__top-city-text {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 142%;
+    text-transform: uppercase;
+    color: #ABABAB;
+}
+.header__top-nav {
+}
+.nav {
+}
+.nav__inner {
+    list-style:none;
+    display: flex;
+    padding: 0;
+}
+.nav__inner li {
+    list-style:none;
+    margin-right: 2rem;
+}
+.nav__inner li:last-child {
+    margin-right: 0;
+}
+.nav__inner li:last-child .nav__link {
+    color: red;
+}
+.nav__inner li:last-child .nav__link:hover {
+    border-bottom: 0;
+}
+.nav__link {
+    font-family: 'Ubuntu';
+    text-decoration: none;
+    color: #B3ABAC;
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+}
+.nav__link:hover {
+    color: #000;
+    border-bottom: 3px solid #348C44;
+}
+.header__top-btn {
+    background: linear-gradient(90.49deg, #05C170 -0.41%, #05B6C1 101.74%);
+    border: 0;
+
+    display: flex;
+    align-items: center;
+    padding: 4px 1.4rem;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+.header__top-btn:hover {
+    background: linear-gradient(90.49deg, #05B6C1 -0.41%, #05C170 101.74%);
+}
+.header__top-btn-icon {
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+}
+.header__top-btn-text {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 104.5%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.header__top-profile {
+}
+.header__main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    max-width: 1150px;
+    width: 100%;
+    margin: 3rem auto 3rem;
+}
+.header__main-contacts {
+}
+.header__main-logo {
+    width: 25%;
+    margin-right: 1rem;
+}
+.header__main-logo img {
+    width: 100%;
+}
+.header__main-contacts {
+    max-width: 39.9rem;
+    margin-right: 1rem;
+}
+.header__form {
+    margin-bottom: 1.2rem;
+    position: relative;
+}
+.header__form input {
+    width: 100%;
+    min-height: 4rem;
+
+    background: #ECECEC;
+    border-radius: 6px;
+    border: 0;
+
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 1.4rem;
+    color: #898F97;
+
+    padding: 0 1.8rem;
+    outline: 0;
+}
+.header__form-search {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1.3rem;
+    cursor: pointer;
+
+    background: none;
+    border: 0;
+}
+.header__main-contacts-bottom {
+    display: flex;
+}
+.header__main-contacts-item {
+    display: flex;
+    align-items: center;
+    margin-right: 1.3rem;
+}
+.header__main-contacts-item:last-child {
+    margin-right: 0;
+}
+.header__main-contacts-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 3px;
+}
+.header__main-contacts-text {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 142%;
+    text-transform: uppercase;
+    color: #ABABAB;
+}
+.header__main-call {
+    max-width: 16rem;
+    margin-right: 1rem;
+}
+.header__main-right {
+    max-width: 18.3rem;
+}
+.header__main-call {
+}
+.header__main-call-phone {
+    font-family: 'Ubuntu';
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 142%;
+    text-transform: uppercase;
+    color: #237A00;
+    white-space: nowrap;
+}
+.header__main-call-tel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__main-call-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 6px;
+}
+.header__main-call-link {
+    font-family: 'Ubuntu';
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 142%;
+    text-decoration-line: underline;
+    color: #00C170;
+}
+.header__main-call-link:hover {
+    text-decoration: none;
+}
+.header__main-right {
+    display: flex;
+    align-items: center;
+}
+.header__main-click {
+    margin-right: 7px;
+    cursor: pointer;
+}
+.header__main-basket {
+    display: flex;
+    align-items: center;
+}
+.header__main-basket-icon {
+    cursor: pointer;
+}
+.header__main-basket-text {
+}
+
+.header__burger {
+    position: relative;
+    width: 20px;
+    height: 10px;
+    z-index: 1000;
+    transition: all .2s linear;
+    align-self: flex-start;
+    margin-top: 1rem;
+    display: none;
+}
+.header__burger span {
+    top: 49%;
+    transform: translateY(-50%);
+}
+.header__burger:after {
+    width: 100%;
+    height: 1.5px;
+    background-color: #000;
+    border-radius: 2px;
+
+    position: absolute;
+    right: 0;
+    transition: all .2s linear;
+}
+.header__burger:before {
+    width: 100%;
+    height: 1.5px;
+    background-color: #000;
+    border-radius: 2px;
+
+    position: absolute;
+    right: 0;
+    transition: all .2s linear;
+}
+.header__burger span {
+    width: 100%;
+    height: 1.5px;
+    background-color: #000;
+    border-radius: 2px;
+
+    position: absolute;
+    right: 0;
+    transition: all .2s linear;
+}
+.header__burger:after {
+    content: "";
+    top: -2px;
+}
+.header__burger:before {
+    content: "";
+    bottom: -2px;
+}
+
+/* 
+@media (max-width: 1320px) {
+    .header__top-body {
+        flex-wrap: wrap;
+        justify-content: start;
+        justify-content: center;
+    }
+    .header__top-city {
+        width: 100%;
+        justify-content: center;
+    }
+    .header__top-nav {
+        width: 100%;
+        white-space: nowrap;
+    }
+    .nav__inner {
+        justify-content: center;
+    }
+    .header__top-profile {
+        margin-left: 2rem;
+    }
+    .header__top-btn {
+    }
+}
+@media (max-width: 1150px) {
+    .header__main-call-phone {
+        font-size: 1rem;
+    }
+    .header__main-call-link {
+        font-size: 0.8rem;
+    }
+}
+@media (max-width: 1050px) {
+    .header__main {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header__main-logo {
+        margin-right: 1rem;
+    }
+    .header__main-contacts {
+        width: 75%;
+        margin-bottom: 2rem;
+    }
+    .header__main-call {
+        margin-right: 2rem;
+        width: 30%;
+    }
+    .header__main-call-tel {
+        justify-content: start;
+    }
+}
+@media (max-width: 992px) {
+    .nav__inner {
+        flex-wrap: wrap;
+    }
+    .nav__inner li {
+        width: 33%;
+        margin-right: 0;
+    }
+}
+@media (max-width: 768px) {
+    .header__main-logo {
+        width: 30%;
+    }
+    .header__main-contacts-text {
+        font-size: 0.8rem;
+    }
+    .header__main-contacts {
+        width: 60%;
+    }
+}
+@media (max-width: 650px) {
+    .header__main {
+        justify-content: start;
+    }
+    .header__main-logo {
+        width: 100%;
+        text-align: center;
+        max-width: 30rem;
+        margin-bottom: 2rem;
+    }
+    .header__main-contacts {
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    .nav__inner li {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
+@media (max-width: 375px) {
+    .header__top-profile {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 1rem;
+    }
+} */
+
+@media (max-width: 992px) {
+    .header__top-body {
+        justify-content: start;
+    }
+    .header__top-city {
+        flex: 1 1 auto;
+    }
+    .nav__inner {
+        display: none;
+    }
+    .header__top-profile {
+        margin-left: 1rem;
+    }
+    .header__main-logo {
+        max-width: 25rem;
+        width: 100%;
+    }
+    .header__main-call {
+        display: none;
+    }
+    .header__main-right {
+        display: none;
+    }
+    .header__burger {
+        display: block;
+    }
+}
+@media (max-width: 768px) {
+    .header__main-logo {
+        max-width: 20rem;
+    }
+    .header__main-contacts {
+        max-width: 25rem;
+    }
+    .header__main-contacts-bottom {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 550px) {
+    .header__main-contacts {
+        display: none;
+    }
+}
+
+@media (max-width: 375px) {
+    .header__top-btn {
+        padding: 4px .5rem;
+    }
+    .header__top-btn-icon {
+        width: 1.5rem;
+    }
+    .header__top-btn-icon img {
+        width: 100%;
+    }
+    .header__top-btn-text {
+        font-size: 0.9rem;
+    }
+}
