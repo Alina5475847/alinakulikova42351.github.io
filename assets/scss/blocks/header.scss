@@ -1,0 +1,238 @@
+.header__top {
+    width: 100%;
+    background-color: #0F181B;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    display: flex;
+    justify-content: flex-end;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+.header__top-list {
+    float: right;
+}
+.header__top-item {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 120%;
+    color: #919496;
+    transition-duration: .2s;
+
+    &:hover {
+        text-decoration: underline;
+    }
+
+    @media (max-width: 1125px) {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    @media (max-width: 992px) {
+        font-size: 1.1rem;
+        padding-right: 0;
+    }
+}
+.header__main {
+    background-color: #222D31;
+    min-height: 11.1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__main-body {
+    display: flex;
+    align-items: center;
+    max-width: 80rem;
+    justify-content: space-between;
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+.header__main-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #4b5457;
+    padding-right: 3.1rem;
+
+    &:last-child {
+        border-right: 0;
+        padding-right: 0;
+    }
+}
+.header__main-item {
+    display: flex;
+    min-height: 74px;
+    padding-top: 1rem;
+}
+.header__main-item-icon {
+    margin-right: 1.2rem;
+}
+.header__main-item-content {
+}
+.header__main-item-title {
+    color: #59B8C5;
+    font-size: 1.4rem;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+}
+.header__main-item-subtitle {
+    font-weight: 300;
+    font-size: 1.4rem;
+    line-height: 17px;
+    text-transform: capitalize;
+    color: #fff;
+    opacity: 0.4;
+}
+.header__main-item-map {
+    margin-right: 1rem;
+    align-self: flex-start;
+}
+.header__main-item-address {
+    color: #fff;
+    opacity: 0.9;
+    font-size: 1.4rem;
+}
+.header__main-item-timetable {
+    opacity: 0.6;
+    font-weight: 300;
+    letter-spacing: .05em;
+    margin-top: 1.2rem;
+    display: block;
+    font-size: 1.2rem;
+    color: #fff;
+}
+.header__main-item-phone {
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: calc(24 / 16);
+    font-weight: 700;
+}
+.header__main-item-link {
+    color: #fff;
+    opacity: 0.5;
+    font-size: 1.4rem;
+    line-height: calc(20 / 14);
+    text-decoration: underline;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+.header__main-item-contact {
+    margin-left: 2.4rem;
+}
+.header__nav {
+    background-color: #59b8c5;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.nav {
+}
+.nav__body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (max-width: 1050px) {
+        justify-content: flex-end;
+    }
+}
+.nav__inner {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    position: relative;
+    padding-top: 1.3rem;
+
+    @media (max-width: 1050px) {
+        display: none;
+    }
+}
+.nav__item {
+
+    &:hover > .subnav > .subnav__body {
+        display: block;
+    }
+}
+.nav__link {
+    display: flex;
+    align-items: center;
+}
+.nav__icon {
+}
+.nav__content {
+    margin-left: 1rem;
+}
+.nav__suptitle {
+    display: block;
+    font-weight: 300;
+    font-size: 1.2rem;
+    color: #fff;
+    opacity: 0.7;
+    margin-bottom: 0.2rem;
+}
+.nav__kind {
+    font-size: 1.4rem;
+    letter-spacing: -.01em;
+    transition-duration: .2s;
+    font-weight: 700;
+    color: #fff;
+
+    &:after {
+        content: '';
+        background: url("https://remont-marino.ru/images/ico/cor-down.svg") no-repeat right center;
+        width: 10px;
+        height: 7px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+.header__burger {
+    background-color: #66C7D5;
+    float: right;
+    position: relative;
+    display: block;
+    height: 100%;
+}
+.header__burger-menu {
+    cursor: pointer;
+    border-left: 1px solid #66C7D4;
+    padding: 19px 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    span {
+        margin: 0 0 7px 0;
+        background: #fff;
+        display: block;
+        height: 2px;
+        border-radius: 3px;
+        transition-duration: .2s;
+
+        &:first-child {
+            width: 2.4rem;
+            margin-left: 0;
+        }
+
+        &:nth-child(2) {
+            width: 16.5px;
+        }
+
+        &:last-child {
+            width: 2.4rem;
+            margin-left: 0;
+        }
+    }
+}
