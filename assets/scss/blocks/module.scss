@@ -1,0 +1,129 @@
+.module {
+    margin-top: 11.4rem;
+}
+.module__container {
+}
+.module__body {
+    background: linear-gradient(108.28deg, #B7DAC1 32.53%, #DEECDD 67.93%);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+
+    @media (max-width: 768px) {
+        justify-content: center;
+    }
+}
+.module__content {
+    flex: 1 1 auto;
+    padding-left: 5rem;
+
+    @media (max-width: 768px) {
+        padding: 3rem;
+        text-align: center;
+        flex: 0 1 auto;
+    }
+
+    @media (max-width: 480px) {
+        padding: 3rem 1rem;
+    }
+}
+.module__title {
+    display: block;
+    font-size: 53px;
+    font-weight: bold;
+    color: #fff;
+
+    @media (max-width: 1050px) {
+        font-size: 3.5rem;
+    }
+
+    @media (max-width: 480px) {
+        font-size: 2.5rem;
+    }
+}
+.module__text {
+    display: block;
+    font-weight: 400;
+    color: #fff;
+    opacity: 0.8;
+    padding-top: 23px;
+    font-size: 16px;
+    line-height: calc(20 / 16);
+    
+    @media (max-width: 1050px) {
+        font-size: 1.4rem;
+        max-width: 250px;
+    }
+
+    @media (max-width: 768px) {
+        margin: auto;
+    }
+
+    @media (max-width: 480px) {
+        font-size: 1.2rem;
+    }
+}
+.module__form {
+    width: 90%;
+    min-height: 3rem;
+    margin-top: 3rem;
+
+    display: flex;
+    input {
+        font-family: 'Lato', sans-serif;
+        background: #fff0;
+        border: 1px solid #ffffff3b;
+        width: 100%;
+        margin-right: 1.6rem;
+        padding: 0 1.5rem;
+
+        font-weight: 400;
+        color: #fff;
+        font-size: 14px;
+        outline: 0;
+
+        &::placeholder {
+            font-family: 'Lato', sans-serif;
+            font-weight: 400;
+            color: #fff;
+            font-size: 14px;
+
+            @media (max-width: 480px) {
+                font-size: 1.2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            font-size: 1.2rem;
+        }
+    }
+
+    @media (max-width: 768px) {
+        max-width: 400px;
+        width: 100%;
+    }
+}
+.btn {
+}
+.module__photo {
+    width: 40%;
+
+    img {
+        width: 100%;
+    }
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+}
+.module__form-btn {
+    width: 90%;
+
+    button {
+        width: 100%;
+    }
+
+    @media (max-width: 768px) {
+        width: 100%;
+    }
+}

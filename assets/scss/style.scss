@@ -1,0 +1,37 @@
+/*# sourceMappingURL=main.css.map */html {font-size: 62.5%;}body,html {margin: 0;padding: 0;height: 100%;}*,*:before,*:after {box-sizing: border-box;}body {font-family: 'Lato', sans-serif;} ul, ol, li {list-style: none;margin: 0;padding: 0;}button {border: 0;padding: 0;background: none;}h1, h2, h3, h4, h5, h6 {margin: 0;padding:0;}a {text-decoration: none;}input {border: 0; background: none;} p {margin: 0; padding: 0}.wrapper {min-height: 100%;overflow: hidden;display: flex;flex-direction: column;}.main {flex: 1 1 auto;}address {font-style: normal;}
+
+[class*="__container"] {
+    width: 100%;
+    padding: 0 15px;
+    margin: auto;
+    max-width: 1200px;
+}
+
+@import "blocks/header";
+@import "blocks/subnav";
+@import "blocks/intro";
+@import "blocks/btn";
+@import "blocks/device";
+@import "blocks/brand";
+@import "blocks/module";
+@import "blocks/info";
+@import "blocks/discount";
+@import "blocks/reviews";
+@import "blocks/contacts";
+@import "blocks/footer";
+@import "blocks/modal";
+@import "blocks/popup";
+
+/*----------------------------*/
+
+.title-block {
+    font-weight: bold;
+    font-size: 3.2rem;
+    line-height: calc(36 / 32);
+    color: #101828;
+    margin-bottom: 42px;
+
+    @media (max-width: 480px) {
+        font-size: 2.5rem;
+    }
+}
